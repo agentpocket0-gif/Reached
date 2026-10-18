@@ -1,0 +1,22 @@
+{
+  "count": 757,
+  "by_license": {
+    "mit": 431,
+    "gpl-3.0": 162,
+    "apache-2.0": 89,
+    "cc0-1.0": 15,
+    "agpl-3.0": 15,
+    "gpl-2.0": 10,
+    "unlicense": 9,
+    "mpl-2.0": 9,
+    "bsd-3-clause": 9,
+    "bsd-2-clause": 4,
+    "cc-by-4.0": 3,
+    "zlib": 1
+  },
+  "by_language": {
+    "JavaScript": 569,
+    "TypeScript": 187,
+    "CoffeeScript": 1
+  }
+}
