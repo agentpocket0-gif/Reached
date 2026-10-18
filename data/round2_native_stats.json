@@ -1,0 +1,32 @@
+{
+  "count": 1638,
+  "by_license": {
+    "mit": 894,
+    "gpl-3.0": 529,
+    "apache-2.0": 100,
+    "gpl-2.0": 33,
+    "zlib": 26,
+    "bsd-2-clause": 16,
+    "cc0-1.0": 15,
+    "unlicense": 9,
+    "agpl-3.0": 7,
+    "mpl-2.0": 6,
+    "cc-by-4.0": 2,
+    "bsd-3-clause": 1
+  },
+  "by_language": {
+    "GDScript": 407,
+    "C++": 306,
+    "C#": 283,
+    "Java": 232,
+    "Rust": 178,
+    "C": 164,
+    "Kotlin": 40,
+    "Lua": 9,
+    "Go": 7,
+    "Objective-C": 4,
+    "Zig": 3,
+    "Haxe": 3,
+    "Pascal": 2
+  }
+}
