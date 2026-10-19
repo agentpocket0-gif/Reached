@@ -1,0 +1,53 @@
+{
+  "verification_round": 3,
+  "date": "2026-10-19",
+  "scope": "duplicate / clone verification across all 3995 games (Round 1 + Round 2)",
+  "source_files": ["data/native_games.csv", "data/web_games.csv", "data/native_games_round2.csv", "data/web_games_round2.csv"],
+  "totals": {
+    "games_checked": 3995,
+    "native_round1": 600,
+    "web_round1": 1000,
+    "native_round2": 1638,
+    "web_round2": 757,
+    "exact_url_duplicates": 0,
+    "near_url_duplicates_normalized": 0
+  },
+  "same_name_clusters": {
+    "clusters": 79,
+    "games_involved": 205,
+    "fork_suspect_clusters_same_repo_name": 56,
+    "fork_suspect_games_same_repo_name": 146,
+    "note": "clusters of entries whose normalized game name is identical; dup_repo_name=yes marks the strongest same-game signal (identical repo name under a different owner, i.e. a fork/re-release)"
+  },
+  "clone_families": {
+    "families": 39,
+    "games_involved_rows": 750,
+    "note": "same game CONCEPT implemented independently (e.g. many Tetris clones). Members are NOT duplicates of one game; recommended=BEST marks the highest-starred implementation to pick",
+    "sizes": {
+      "snake": 94, "minecraft": 70, "chess": 57, "tetris": 50, "tictactoe": 48,
+      "osu": 33, "flappy": 32, "pong": 30, "minesweeper": 27, "2048": 26,
+      "doom": 23, "pacman": 21, "invaders": 20, "quake": 18, "breakout": 18,
+      "pokemon": 17, "mario": 17, "wordle": 15, "spaceinvaders": 15, "asteroids": 13,
+      "match3": 12, "sudoku": 11, "wolfenstein": 9, "solitaire": 8, "bomberman": 8,
+      "arkanoid": 8, "zelda": 6, "sokoban": 6, "checkers": 6, "worms": 5,
+      "connect4": 5, "agario": 4, "shogi": 3, "reversi": 3, "cardsagainsthumanity": 3,
+      "candycrush": 3, "slither": 2, "pinball": 2, "bejeweled": 2
+    }
+  },
+  "method": {
+    "url_check": "exact + normalized (lowercase, strip .git and trailing slash) repo URL comparison",
+    "name_check": "name normalization (lowercase, alphanumeric only, strip trailing generic words: game/games/js/html/web/clone/remake/the/app/engine/2d/3d/android/free/original/new/open, .io suffix)",
+    "fork_check": "identical normalized repo-name under different owners inside a same-name cluster",
+    "family_check": "42 classic-game keywords matched against squashed name+description+topics (with sponge/bookworm false-positive guards for pong/worms)",
+    "recommendation": "recommended=BEST = max stars (tiebreak: latest last_updated); is_latest=yes = most recent last_updated"
+  },
+  "notable_findings": [
+    {"cluster": "spacestation14", "finding": "space-wizards/space-station-14 (main project) and space-syndicate/space-station-14 (fork build) - same game re-released", "keep": "https://github.com/space-wizards/space-station-14"},
+    {"cluster": "wobblerush", "finding": "code-yeongyu/wobble-rush-3d and aayushman-singh/wobble-rush-3d - same repo name, clear duplicate candidate", "keep": "https://github.com/code-yeongyu/wobble-rush-3d"},
+    {"cluster": "vangers", "finding": "KranX/Vangers (original, 739 stars) vs kvark/vange-rs (Rust re-implementation of the same game)", "keep": "https://github.com/KranX/Vangers"},
+    {"cluster": "plantsvszombies", "finding": "3 unrelated repos all named PlantsVsZombies (GDScript)", "keep": "https://github.com/limuy2022/PlantsVsZombies"},
+    {"cluster": "voxelcore", "finding": "MihailRis/voxelcore (C++ voxel engine) vs ClarkThyLord/Voxel-Core (Godot plugin) - name collision, different projects"},
+    {"cluster": "js13k2020", "finding": "js13k competition entries sharing repo name - different games, not duplicates"}
+  ],
+  "output_files": ["data/duplicates_same_name.csv", "data/clone_families.csv"]
+}

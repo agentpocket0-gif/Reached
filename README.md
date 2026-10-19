@@ -14,3 +14,38 @@ Round-2 license coverage: MIT (894 native / 431 web), GPL-3.0 (529/162), Apache-
 **Grand total across both rounds: 3995 unique games** (1600 in round 1 + 2395 in round 2).
 
 > Note: round-2 queries (topic:godot, topic:fps, topic:voxel, etc.) can also surface game **engines/tools** (e.g. godot, recastnavigation). Filter with the `description`/`topics` columns if you only want playable games — or keep the engines, they are exactly what you need to build powerful 3D games.
+
+---
+
+## 🔍 ROUND 3 — Duplicate Verification (added 2026-10-19)
+
+All **3995 games** were cross-checked for duplicates (same game cloned & re-released under a different repo):
+
+| Check | Result |
+|---|---|
+| Exact repo-URL duplicates | **0** |
+| Normalized URL duplicates (case / `.git` / trailing slash) | **0** |
+| Same normalized game-name clusters | **79 clusters / 205 games** |
+| → of which fork-suspects (identical repo name, different owner) | **56 clusters / 146 games** |
+| Clone families (same concept, independent implementations) | **39 families / 750 entries** |
+
+New files:
+
+| File | Rows | Content |
+|---|---|---|
+| `data/duplicates_same_name.csv` | 205 | Entries sharing an identical normalized game name — the real duplicate candidates |
+| `data/clone_families.csv` | 750 | Classic-game families (snake 94, minecraft 70, chess 57, tetris 50, tictactoe 48, osu 33, flappy 32, pong 30 …) |
+| `data/verification_summary.json` | – | Machine-readable stats, method & notable findings |
+
+**Decision columns (already computed for you):**
+- `recommended = BEST` → highest-starred member of the cluster/family (pick this one)
+- `is_latest = yes` → most recently updated member
+- `dup_repo_name = yes` → another entry in the same cluster has the identical repo name (fork / re-release suspect — the strongest same-game signal)
+
+**Notable confirmed duplicates / forks:**
+- `space-wizards/space-station-14` vs `space-syndicate/space-station-14` (fork build) → keep the first
+- `code-yeongyu/wobble-rush-3d` vs `aayushman-singh/wobble-rush-3d` (identical repo name) → keep the first
+- `KranX/Vangers` (original, 739★) vs `kvark/vange-rs` (Rust re-implementation of the same game)
+- 3 repos all named `PlantsVsZombies` → keep `limuy2022/PlantsVsZombies`
+
+> Bottom line: no repo enters the lists twice at URL level. The 146 fork-suspect games are flagged in `data/duplicates_same_name.csv` — for each cluster just use the row with `recommended=BEST` (or `is_latest=yes` for the newest version).
