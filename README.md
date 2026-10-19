@@ -49,3 +49,9 @@ New files:
 - 3 repos all named `PlantsVsZombies` → keep `limuy2022/PlantsVsZombies`
 
 > Bottom line: no repo enters the lists twice at URL level. The 146 fork-suspect games are flagged in `data/duplicates_same_name.csv` — for each cluster just use the row with `recommended=BEST` (or `is_latest=yes` for the newest version).
+
+## 📄 Full Word Report
+
+Download the complete research report — **all 3,995 games** with links, licenses, languages, stars, descriptions, duplicate-verification results, license cheat-sheet and APK guide — as a single Word document:
+
+[**Open-Source-Games-Report.doc**](Open-Source-Games-Report.doc) (right-click → Save link as… / Download button)
