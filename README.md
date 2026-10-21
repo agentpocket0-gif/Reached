@@ -55,3 +55,11 @@ New files:
 Download the complete research report — **all 3,995 games** with links, licenses, languages, stars, descriptions, duplicate-verification results, license cheat-sheet and APK guide — as a single Word document:
 
 [**Open-Source-Games-Report.doc**](Open-Source-Games-Report.doc) (right-click → Save link as… / Download button)
+
+## 📑 FINAL Organized Word Report
+
+**[Open-Source-Games-Report-Organized.doc](Open-Source-Games-Report-Organized.doc)** — all 3,995 games, deeply organized:
+
+**Engine** (Godot → Unity → Unreal → C/C++ → Java/Kotlin → Rust → … ; Web: Three.js → Phaser → HTML5) → **License** (MIT first, then CC0/Zlib/BSD/…/GPL) → **2D first, then 3D** → **Genre** (Racing → Endless Runner → Shooter/FPS → Zombie/Survival → RPG → …) → **Stars**.
+
+Every entry also carries a **verification status**: 🟢 **Game** (complete, 2,819) · 🟠 **Demo/Prototype** (228) · ⚪ **Engine/Tool** (948).
