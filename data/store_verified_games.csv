@@ -1,0 +1,19 @@
+game,stars,license,genre,dim,github_url,store_platforms,store_urls,status,notes
+Space Station 14,3870,MIT,Multiplayer RP,2D,https://github.com/space-wizards/space-station-14,Steam,https://store.steampowered.com/app/1255460/Space_Station_14/,VERIFIED-LIVE,
+tModLoader,5737,MIT,Terraria mod tool,2D,https://github.com/tModLoader/tModLoader,Steam,https://store.steampowered.com/app/1281930/tModLoader/,VERIFIED-LIVE,needs Terraria game
+Burning Knight,341,MIT,Action Roguelike,2D,https://github.com/egordorichev/BurningKnight,Steam,https://store.steampowered.com/app/851150/Burning_Knight/,VERIFIED-LIVE,PAID game + open source
+osu,19288,MIT,Rhythm,2D,https://github.com/ppy/osu,Direct download,https://osu.ppy.sh/home/download,REMOVED-FROM-PLAY,was on Play Store 2019; assets have separate license
+Unciv,11458,MPL-2.0,Civ V remake,2D,https://github.com/yairm210/Unciv,Google Play;F-Droid;itch.io,https://play.google.com/store/apps/details?id=com.unciv.app,VERIFIED-LIVE,Steam declined to host it
+Quaver,801,MPL-2.0,Rhythm,2D,https://github.com/Quaver/Quaver,Steam,https://store.steampowered.com/app/980610/Quaver/,VERIFIED-LIVE,
+Luanti (Minetest),11000,LGPL-2.1,Voxel Sandbox,3D,https://github.com/luanti-org/luanti,Google Play;F-Droid,https://play.google.com/store/apps/details?id=net.minetest.minetest,VERIFIED-LIVE,1M+ downloads; removed Aug 2026 by false AI DMCA then back
+Battle for Wesnoth,6941,GPL-2.0,Turn-based Strategy,2D,https://github.com/wesnoth/wesnoth,Steam;iOS (2010),https://store.steampowered.com/app/599390/Battle_for_Wesnoth/,VERIFIED-LIVE,iOS App Store release in 2010
+SuperTux,3173,GPL-3.0,Platformer,2D,https://github.com/SuperTux/supertux,Steam,https://store.steampowered.com/app/1572920/SuperTux/,VERIFIED-LIVE,
+Mindustry,29394,GPL-3.0,Tower Defense RTS,2D,https://github.com/Anuken/Mindustry,Google Play;Steam;itch.io;F-Droid,https://play.google.com/store/apps/details?id=io.anuke.mindustry,VERIFIED-LIVE,5M+ downloads 4.3 stars; paid version on Steam
+SuperTuxKart,4300,GPL-3.0,Kart Racing,3D,https://github.com/SuperTuxKart/stk-code,Google Play,https://play.google.com/store/apps/details?id=org.supertuxkart.stk,VERIFIED-LIVE,1M+ downloads 4.6 stars
+shapez,6989,GPL-3.0,Factory Puzzle,2D,https://github.com/tobspr-games/shapez.io,Steam,https://store.steampowered.com/app/1318690/shapez/,VERIFIED-LIVE,web game to $1M Steam hit
+Endless Sky,7637,GPL-3.0,Space Trading,2.5D,https://github.com/endless-sky/endless-sky,Steam,https://store.steampowered.com/app/404410/Endless_Sky/,VERIFIED-LIVE,
+Shattered Pixel Dungeon,6687,GPL-3.0,Roguelike,2D,https://github.com/00-Evan/shattered-pixel-dungeon,Google Play;F-Droid,https://play.google.com/store/apps/details?id=com.shatteredpixel.shatteredpixeldungeon,VERIFIED-LIVE,
+Antimine,807,GPL-3.0,Minesweeper,2D,https://github.com/lucasnlm/antimine-android,F-Droid,https://f-droid.org/packages/dev.lucanlm.antimine/,VERIFIED-LIVE,
+Gauguin,214,GPL-3.0,Math Sudoku,2D,https://github.com/meikpiep/gauguin,F-Droid,https://f-droid.org/packages/org.piepmeyer.gauguin/,VERIFIED-LIVE,
+Feudal Tactics,120,GPL-3.0,Strategy,2D,https://github.com/Sesu8642/FeudalTactics,F-Droid,https://f-droid.org/en/packages/de.sesu8642.feudaltactics/,VERIFIED-LIVE,
+Dooz,107,GPL-3.0,Tic-tac-toe,2D,https://github.com/yamin8000/Dooz,F-Droid,https://f-droid.org/en/packages/io.github.yamin8000.dooz/,VERIFIED-LIVE,
