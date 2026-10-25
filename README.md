@@ -15,7 +15,7 @@ Round-2 license coverage: MIT (894 native / 431 web), GPL-3.0 (529/162), Apache-
 
 > Note: round-2 queries (topic:godot, topic:fps, topic:voxel, etc.) can also surface game **engines/tools** (e.g. godot, recastnavigation). Filter with the `description`/`topics` columns if you only want playable games — or keep the engines, they are exactly what you need to build powerful 3D games.
 
-- `data/verified_3d_games.csv` — **225 agent-verified complete 3D games** (permissive licenses only: MIT/CC0/Apache/BSD/zlib/Unlicense; demos, templates, engines, tools removed; top games release/store-verified)
+- `data/verified_3d_games.csv` — **201 agent-verified complete 3D games** (permissive licenses only: MIT/CC0/Apache/BSD/zlib/Unlicense; demos, templates, engines, tools removed; top games release/store-verified)
 ---
 ## 🔍 ROUND 3 — Duplicate Verification (added 2026-10-19)
 
