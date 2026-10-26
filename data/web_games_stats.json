@@ -1,9 +1,9 @@
 {
   "count": 1000,
   "by_license": {
-    "MIT": 673,
+    "MIT": 672,
     "GPL-3.0": 163,
-    "AGPL-3.0": 54,
+    "AGPL-3.0": 55,
     "MPL-2.0": 11,
     "APACHE-2.0": 53,
     "UNLICENSE": 13,
@@ -14,7 +14,7 @@
     "LGPL-3.0": 3
   },
   "by_language": {
-    "JavaScript": 656,
-    "TypeScript": 344
+    "JavaScript": 652,
+    "TypeScript": 348
   }
 }

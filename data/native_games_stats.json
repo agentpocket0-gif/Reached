@@ -1,9 +1,9 @@
 {
   "count": 600,
   "by_license": {
-    "GPL-3.0": 166,
-    "MIT": 242,
-    "MPL-2.0": 7,
+    "GPL-3.0": 165,
+    "MIT": 245,
+    "MPL-2.0": 6,
     "LGPL-2.1": 5,
     "GPL-2.0": 49,
     "APACHE-2.0": 75,
@@ -11,15 +11,15 @@
     "BSD-3-CLAUSE": 10,
     "BSD-2-CLAUSE": 4,
     "LGPL-3.0": 7,
-    "UNLICENSE": 6
+    "UNLICENSE": 5
   },
   "by_language": {
     "Java": 85,
-    "C#": 144,
-    "C++": 146,
-    "Kotlin": 29,
-    "C": 75,
-    "Rust": 81,
+    "C#": 145,
+    "C++": 145,
+    "Kotlin": 28,
+    "C": 74,
+    "Rust": 83,
     "GDScript": 37,
     "Pascal": 1,
     "Go": 1,
