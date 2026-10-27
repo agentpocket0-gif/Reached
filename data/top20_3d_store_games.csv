@@ -1,0 +1,21 @@
+game,category,license,dim,genre,github_url,store_platform,store_url,rating_downloads,close_source_allowed,verified_note
+Red Eclipse 2,A,zlib-based code (assets CC-BY-SA),3D,FPS,https://github.com/redeclipse/base,Steam,https://store.steampowered.com/app/967460/Red_Eclipse_2/,free on Steam active players,yes-rename-required,real 3D FPS; fork needs new name/logo
+Space Station 14,A,MIT,2D,Multiplayer RP,https://github.com/space-wizards/space-station-14,Steam,https://store.steampowered.com/app/1255460/Space_Station_14/,88/100 Very Positive 4825 reviews,yes,verified via steambase
+Burning Knight,A,MIT,2D,Roguelike,https://github.com/egordorichev/BurningKnight,Steam,https://store.steampowered.com/app/851150/Burning_Knight/,paid on Steam,yes,open source + paid game
+tModLoader,A,MIT,2D,Terraria mod tool,https://github.com/tModLoader/tModLoader,Steam,https://store.steampowered.com/app/1281930/tModLoader/,millions of users,yes,needs Terraria
+Quaver,A,MPL-2.0,2D,Rhythm,https://github.com/Quaver/Quaver,Steam,https://store.steampowered.com/app/980610/Quaver/,free active,yes-file-level,MPL file-level copyleft
+Unvanquished,A,BSD code + free art,3D,FPS/RTS hybrid,https://github.com/Unvanquished/Unvanquished,official website (no store),https://unvanquished.net/download/,fully free licensed 2023,yes,real 3D characters
+0 A.D.,A,MIT code + CC-BY-SA art,3D,RTS,https://play0ad.com/,official website (no store),https://play0ad.com/download/,20+ year project,yes-code,real 3D RTS characters
+osu,A,MIT code (assets separate),2D,Rhythm,https://github.com/ppy/osu,was on Play Store now direct,https://osu.ppy.sh/home/download,millions of players,yes-code,Play page not found now
+broken_seals,B,MIT,3D,Action RPG,https://github.com/Relintai/broken_seals,none (self-launch),https://github.com/Relintai/broken_seals/releases,416 stars Android builds ready,yes,godot/Pandemonium engine
+godot-open-rts,B,MIT,3D,RTS,https://github.com/lampe-games/godot-open-rts,none (self-launch),https://github.com/lampe-games/godot-open-rts,1126 stars,yes,Godot 4.3
+godot-tiny-mmo,B,MIT,3D,MMORPG,https://github.com/SlayHorizon/godot-tiny-mmo,none (self-launch),https://github.com/SlayHorizon/godot-tiny-mmo,288 stars,yes,needs server
+open-strike,B,MIT,3D,FPS,https://github.com/pocket-nexus/open-strike,none (self-launch),https://github.com/pocket-nexus/open-strike,244 stars,yes,Rust+Godot
+3d-horror-game,B,Apache-2.0,3D,Horror/Survival,https://github.com/yassine-mathlouthi/3d-horror-game,none (self-launch),https://github.com/yassine-mathlouthi/3d-horror-game,Godot 4.5 mobile joystick,yes,mobile-ready
+zomboid-survival,B,MIT,3D,Zombie Survival,https://github.com/saivittalb/zomboid-survival,none (self-launch),https://github.com/saivittalb/zomboid-survival,56 stars,yes,Unity
+Godot-Small-FPS,B,CC0,3D,FPS,https://github.com/brodcoli/Godot-Small-FPS,none (self-launch),https://github.com/brodcoli/Godot-Small-FPS,53 stars,yes-full-freedom,zero conditions
+Flappy-Race,B,MIT code,3D,Racing/Arcade,https://github.com/Jibby-Games/Flappy-Race,itch.io playable,https://jibby-games.itch.io/flappy-race,itch.io + releases,yes,art CC-BY/PD
+SuperTuxKart,C,GPL-3.0,3D,Kart Racing,https://github.com/SuperTuxKart/stk-code,Google Play,https://play.google.com/store/apps/details?id=org.supertuxkart.stk,1M+ downloads 4.6 stars,no,must stay open source
+Luanti,C,LGPL-2.1,3D,Voxel Sandbox,https://github.com/luanti-org/luanti,Google Play,https://play.google.com/store/apps/details?id=net.minetest.minetest,1M+ downloads 3.9 stars,no,DMCA removed Aug 2026 then restored
+Mindustry,C,GPL-3.0,2D,Tower Defense RTS,https://github.com/Anuken/Mindustry,Google Play + Steam,https://play.google.com/store/apps/details?id=io.anuke.mindustry,5M+ downloads 4.3 stars 139K reviews,no,store king of OSS
+Cro-Mag Rally,C,CC-BY-NC-SA,3D,Kart Racing,https://github.com/jorio/CroMagRally,Apple App Store,https://apps.apple.com/us/app/cro-mag-rally/id281747159,sold on App Store,no-noncommercial,license read: NonCommercial
